@@ -30,7 +30,7 @@ node{
 		//  do nothing if there is an exception
 	}
      stage('Docker deployment'){
-   sh 'docker run -d -p 7010:8080 --name apache2 myimage2/app:0.0.5' 
+   sh 'docker run -d -p 7010:8080 
    }
   }
 }
